@@ -1,0 +1,92 @@
+body {
+background-color: rgb(255, 255, 255);
+width: 100%;
+height: 100%;
+margin: 0;
+font-family: 'Volkhov', serif;
+}
+.container {
+    width: 40%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding-top: 30px;
+}
+h1 {
+    color: black;
+    font: medium;
+    font-style: normal;
+    font-size: medium;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1:hover{
+    color: rgb(122, 213, 216);
+    cursor: pointer;
+}
+.links {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+}
+.links li{
+    display: inline;
+    margin-right: 20px;
+    color: rgb(202, 209, 209);
+
+}
+.links li:hover{
+    color: rgb(122, 213, 216);
+    cursor: pointer;
+}
+.description {
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    top: -10px;
+}
+.dates {
+    color: rgb(202, 209, 209);
+}
+section {
+    border-bottom: 1px solid #797975;
+    margin-bottom: 1px solid #797575;
+    padding-bottom: 14px;
+}
+section p{
+    color: darkslategray;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 27px;
+}
+section .dash {
+    border: 1px solid darkslategray;
+    width: 20px;
+    float: left;
+    margin-bottom: 40px;
+}
+section .caveat {
+    font-size: 14px;
+    font-style: italic;
+    display: block;
+}
+section .caveat span {
+    color: rgb(13, 91, 163);
+
+}
+footer ul {
+    padding-left: 0;
+    
+}
+footer li {
+    margin-bottom: 10px;
+    color: rgb(202, 209, 209);
+    list-style: none;
+}
+footer li :hover {
+    color: rgb(122, 213, 216);
+    cursor: pointer;
+}
+footer .copyright {
+    font-size: 8px;
+    color: rgb(187, 187, 187);
+}
